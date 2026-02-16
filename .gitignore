@@ -11,9 +11,16 @@ venv/
 # Model weights
 model/*.pt
 
-# Input/Output data
-input/
-output/
+# SHARP model code
+sharp/
+
+# Input images (keep README, ignore actual images)
+input/*
+!input/README.md
+
+# Output PLY files (keep .gitkeep, ignore outputs)
+output/*
+!output/.gitkeep
 
 # OS
 .DS_Store

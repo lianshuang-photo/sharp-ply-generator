@@ -1,0 +1,19 @@
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Model weights
+model/*.pt
+
+# Input/Output data
+input/
+output/
+
+# OS
+.DS_Store

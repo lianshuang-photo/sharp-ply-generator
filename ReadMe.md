@@ -2,7 +2,7 @@
 
 基于 Apple [SHARP](https://github.com/apple/ml-sharp) 模型，从单张照片生成 3D Gaussian Splatting PLY 文件。
 
-> 生成的 PLY 文件可用 [spatial-photo-viewer](https://github.com/baotianyi/spatial-photo-viewer) 进行预览，支持陀螺仪视差效果。
+> 生成的 PLY 文件可用 [spatial-photo-viewer](https://github.com/lianshuang-photo/spatial-photo-viewer) 进行预览，支持陀螺仪视差效果。
 
 ## 功能
 
@@ -78,7 +78,7 @@ INTERNAL_SHAPE  = (1536, 1536)  # SHARP 内部推理分辨率（固定）
 
 ## 相关项目
 
-- [spatial-photo-viewer](https://github.com/baotianyi/spatial-photo-viewer) — 生成的 PLY 文件的 Web 查看器，支持陀螺仪视差效果
+- [spatial-photo-viewer](https://github.com/lianshuang-photo/spatial-photo-viewer) — 生成的 PLY 文件的 Web 查看器，支持陀螺仪视差效果
 
 ## License
 
